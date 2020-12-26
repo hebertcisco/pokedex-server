@@ -1,0 +1,6 @@
+{
+  "name": "pokedex",
+  "description": "Pokédex application developed with React Native and TypeScript.",
+  "repository": "https://github.com/hebertcisco/pokedex-server",
+  "keywords": ["pokedex"]
+}
