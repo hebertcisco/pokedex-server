@@ -1,6 +1,6 @@
 {
   "name": "pokedex",
-  "description": "Pokédex application developed with React Native and TypeScript.",
+  "description": "Pokédex application developed with Nodejs and Vercel.",
   "repository": "https://github.com/hebertcisco/pokedex-server",
   "keywords": ["pokedex"]
 }
