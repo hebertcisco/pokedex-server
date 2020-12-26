@@ -1,0 +1,25 @@
+{
+  "name": "pokedex",
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "dist/server.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/robots.txt",
+      "status": 204
+    },
+    {
+      "src": "/favicon.ico",
+      "status": 204
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/server.js"
+    }
+  ]
+}
